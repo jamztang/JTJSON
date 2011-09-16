@@ -10,4 +10,6 @@
 
 @interface JTJSONTests : SenTestCase
 
+@property (nonatomic, retain) NSDictionary *dict;
+
 @end

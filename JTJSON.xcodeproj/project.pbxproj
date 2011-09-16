@@ -23,6 +23,9 @@
 		1A762871142363C600342C71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A76286F142363C600342C71 /* InfoPlist.strings */; };
 		1A762873142363C700342C71 /* JTJSONTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A762872142363C700342C71 /* JTJSONTests.h */; };
 		1A762875142363C700342C71 /* JTJSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A762874142363C700342C71 /* JTJSONTests.m */; };
+		1A7628841423645100342C71 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A76287E1423641900342C71 /* sample.json */; };
+		1A7628851423645100342C71 /* sample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A76287F1423641900342C71 /* sample.plist */; };
+		1A7628881423672C00342C71 /* sample.text in Resources */ = {isa = PBXBuildFile; fileRef = 1A7628871423672C00342C71 /* sample.text */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +43,25 @@
 		1A762844142363C600342C71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A762846142363C600342C71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1A762848142363C600342C71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1A76284C142363C600342C71 /* JTJSON-Info.plist */ = {isa = PBXFileReference; path = "JTJSON-Info.plist"; sourceTree = "<group>"; };
+		1A76284C142363C600342C71 /* JTJSON-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTJSON-Info.plist"; sourceTree = "<group>"; };
 		1A76284E142363C600342C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A762850142363C600342C71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A762852142363C600342C71 /* JTJSON-Prefix.pch */ = {isa = PBXFileReference; path = "JTJSON-Prefix.pch"; sourceTree = "<group>"; };
-		1A762853142363C600342C71 /* JTJSONAppDelegate.h */ = {isa = PBXFileReference; path = JTJSONAppDelegate.h; sourceTree = "<group>"; };
+		1A762852142363C600342C71 /* JTJSON-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JTJSON-Prefix.pch"; sourceTree = "<group>"; };
+		1A762853142363C600342C71 /* JTJSONAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTJSONAppDelegate.h; sourceTree = "<group>"; };
 		1A762854142363C600342C71 /* JTJSONAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTJSONAppDelegate.m; sourceTree = "<group>"; };
 		1A762857142363C600342C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		1A762859142363C600342C71 /* JTJSONViewController.h */ = {isa = PBXFileReference; path = JTJSONViewController.h; sourceTree = "<group>"; };
+		1A762859142363C600342C71 /* JTJSONViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTJSONViewController.h; sourceTree = "<group>"; };
 		1A76285A142363C600342C71 /* JTJSONViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTJSONViewController.m; sourceTree = "<group>"; };
 		1A76285D142363C600342C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JTJSONViewController.xib; sourceTree = "<group>"; };
 		1A762864142363C600342C71 /* JTJSONTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTJSONTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A762865142363C600342C71 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1A76286E142363C600342C71 /* JTJSONTests-Info.plist */ = {isa = PBXFileReference; path = "JTJSONTests-Info.plist"; sourceTree = "<group>"; };
+		1A76286E142363C600342C71 /* JTJSONTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTJSONTests-Info.plist"; sourceTree = "<group>"; };
 		1A762870142363C600342C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A762872142363C700342C71 /* JTJSONTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTJSONTests.h; sourceTree = "<group>"; };
 		1A762874142363C700342C71 /* JTJSONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTJSONTests.m; sourceTree = "<group>"; };
+		1A76287E1423641900342C71 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		1A76287F1423641900342C71 /* sample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample.plist; sourceTree = "<group>"; };
+		1A7628871423672C00342C71 /* sample.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.text; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,9 @@
 		1A76286D142363C600342C71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A7628871423672C00342C71 /* sample.text */,
+				1A76287E1423641900342C71 /* sample.json */,
+				1A76287F1423641900342C71 /* sample.plist */,
 				1A76286E142363C600342C71 /* JTJSONTests-Info.plist */,
 				1A76286F142363C600342C71 /* InfoPlist.strings */,
 			);
@@ -227,6 +236,9 @@
 				1A76284F142363C600342C71 /* InfoPlist.strings in Resources */,
 				1A762858142363C600342C71 /* MainWindow.xib in Resources */,
 				1A76285E142363C600342C71 /* JTJSONViewController.xib in Resources */,
+				1A7628841423645100342C71 /* sample.json in Resources */,
+				1A7628851423645100342C71 /* sample.plist in Resources */,
+				1A7628881423672C00342C71 /* sample.text in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
