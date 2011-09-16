@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A762845142363C600342C71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A762844142363C600342C71 /* UIKit.framework */; };
+		1A762847142363C600342C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A762846142363C600342C71 /* Foundation.framework */; };
+		1A762849142363C600342C71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A762848142363C600342C71 /* CoreGraphics.framework */; };
+		1A76284F142363C600342C71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A76284D142363C600342C71 /* InfoPlist.strings */; };
+		1A762851142363C600342C71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A762850142363C600342C71 /* main.m */; };
+		1A762855142363C600342C71 /* JTJSONAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A762854142363C600342C71 /* JTJSONAppDelegate.m */; };
+		1A762858142363C600342C71 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A762856142363C600342C71 /* MainWindow.xib */; };
+		1A76285B142363C600342C71 /* JTJSONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A76285A142363C600342C71 /* JTJSONViewController.m */; };
+		1A76285E142363C600342C71 /* JTJSONViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A76285C142363C600342C71 /* JTJSONViewController.xib */; };
+		1A762866142363C600342C71 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A762865142363C600342C71 /* SenTestingKit.framework */; };
+		1A762867142363C600342C71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A762844142363C600342C71 /* UIKit.framework */; };
+		1A762868142363C600342C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A762846142363C600342C71 /* Foundation.framework */; };
+		1A762869142363C600342C71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A762848142363C600342C71 /* CoreGraphics.framework */; };
+		1A762871142363C600342C71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A76286F142363C600342C71 /* InfoPlist.strings */; };
+		1A762873142363C700342C71 /* JTJSONTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A762872142363C700342C71 /* JTJSONTests.h */; };
+		1A762875142363C700342C71 /* JTJSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A762874142363C700342C71 /* JTJSONTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A76286A142363C600342C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A762837142363C600342C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A76283F142363C600342C71;
+			remoteInfo = JTJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A762840142363C600342C71 /* JTJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A762844142363C600342C71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A762846142363C600342C71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A762848142363C600342C71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A76284C142363C600342C71 /* JTJSON-Info.plist */ = {isa = PBXFileReference; path = "JTJSON-Info.plist"; sourceTree = "<group>"; };
+		1A76284E142363C600342C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A762850142363C600342C71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A762852142363C600342C71 /* JTJSON-Prefix.pch */ = {isa = PBXFileReference; path = "JTJSON-Prefix.pch"; sourceTree = "<group>"; };
+		1A762853142363C600342C71 /* JTJSONAppDelegate.h */ = {isa = PBXFileReference; path = JTJSONAppDelegate.h; sourceTree = "<group>"; };
+		1A762854142363C600342C71 /* JTJSONAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTJSONAppDelegate.m; sourceTree = "<group>"; };
+		1A762857142363C600342C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1A762859142363C600342C71 /* JTJSONViewController.h */ = {isa = PBXFileReference; path = JTJSONViewController.h; sourceTree = "<group>"; };
+		1A76285A142363C600342C71 /* JTJSONViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTJSONViewController.m; sourceTree = "<group>"; };
+		1A76285D142363C600342C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JTJSONViewController.xib; sourceTree = "<group>"; };
+		1A762864142363C600342C71 /* JTJSONTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTJSONTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A762865142363C600342C71 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1A76286E142363C600342C71 /* JTJSONTests-Info.plist */ = {isa = PBXFileReference; path = "JTJSONTests-Info.plist"; sourceTree = "<group>"; };
+		1A762870142363C600342C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A762872142363C700342C71 /* JTJSONTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTJSONTests.h; sourceTree = "<group>"; };
+		1A762874142363C700342C71 /* JTJSONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTJSONTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A76283D142363C600342C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A762845142363C600342C71 /* UIKit.framework in Frameworks */,
+				1A762847142363C600342C71 /* Foundation.framework in Frameworks */,
+				1A762849142363C600342C71 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A762860142363C600342C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A762866142363C600342C71 /* SenTestingKit.framework in Frameworks */,
+				1A762867142363C600342C71 /* UIKit.framework in Frameworks */,
+				1A762868142363C600342C71 /* Foundation.framework in Frameworks */,
+				1A762869142363C600342C71 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A762835142363C600342C71 = {
+			isa = PBXGroup;
+			children = (
+				1A76284A142363C600342C71 /* JTJSON */,
+				1A76286C142363C600342C71 /* JTJSONTests */,
+				1A762843142363C600342C71 /* Frameworks */,
+				1A762841142363C600342C71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A762841142363C600342C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A762840142363C600342C71 /* JTJSON.app */,
+				1A762864142363C600342C71 /* JTJSONTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A762843142363C600342C71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A762844142363C600342C71 /* UIKit.framework */,
+				1A762846142363C600342C71 /* Foundation.framework */,
+				1A762848142363C600342C71 /* CoreGraphics.framework */,
+				1A762865142363C600342C71 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A76284A142363C600342C71 /* JTJSON */ = {
+			isa = PBXGroup;
+			children = (
+				1A762853142363C600342C71 /* JTJSONAppDelegate.h */,
+				1A762854142363C600342C71 /* JTJSONAppDelegate.m */,
+				1A762856142363C600342C71 /* MainWindow.xib */,
+				1A762859142363C600342C71 /* JTJSONViewController.h */,
+				1A76285A142363C600342C71 /* JTJSONViewController.m */,
+				1A76285C142363C600342C71 /* JTJSONViewController.xib */,
+				1A76284B142363C600342C71 /* Supporting Files */,
+			);
+			path = JTJSON;
+			sourceTree = "<group>";
+		};
+		1A76284B142363C600342C71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A76284C142363C600342C71 /* JTJSON-Info.plist */,
+				1A76284D142363C600342C71 /* InfoPlist.strings */,
+				1A762850142363C600342C71 /* main.m */,
+				1A762852142363C600342C71 /* JTJSON-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A76286C142363C600342C71 /* JTJSONTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A762872142363C700342C71 /* JTJSONTests.h */,
+				1A762874142363C700342C71 /* JTJSONTests.m */,
+				1A76286D142363C600342C71 /* Supporting Files */,
+			);
+			path = JTJSONTests;
+			sourceTree = "<group>";
+		};
+		1A76286D142363C600342C71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A76286E142363C600342C71 /* JTJSONTests-Info.plist */,
+				1A76286F142363C600342C71 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A76283F142363C600342C71 /* JTJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A762878142363C700342C71 /* Build configuration list for PBXNativeTarget "JTJSON" */;
+			buildPhases = (
+				1A76283C142363C600342C71 /* Sources */,
+				1A76283D142363C600342C71 /* Frameworks */,
+				1A76283E142363C600342C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTJSON;
+			productName = JTJSON;
+			productReference = 1A762840142363C600342C71 /* JTJSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A762863142363C600342C71 /* JTJSONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A76287B142363C700342C71 /* Build configuration list for PBXNativeTarget "JTJSONTests" */;
+			buildPhases = (
+				1A76285F142363C600342C71 /* Sources */,
+				1A762860142363C600342C71 /* Frameworks */,
+				1A762861142363C600342C71 /* Resources */,
+				1A762862142363C600342C71 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A76286B142363C600342C71 /* PBXTargetDependency */,
+			);
+			name = JTJSONTests;
+			productName = JTJSONTests;
+			productReference = 1A762864142363C600342C71 /* JTJSONTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A762837142363C600342C71 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1A76283A142363C600342C71 /* Build configuration list for PBXProject "JTJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A762835142363C600342C71;
+			productRefGroup = 1A762841142363C600342C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A76283F142363C600342C71 /* JTJSON */,
+				1A762863142363C600342C71 /* JTJSONTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A76283E142363C600342C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A76284F142363C600342C71 /* InfoPlist.strings in Resources */,
+				1A762858142363C600342C71 /* MainWindow.xib in Resources */,
+				1A76285E142363C600342C71 /* JTJSONViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A762861142363C600342C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A762871142363C600342C71 /* InfoPlist.strings in Resources */,
+				1A762873142363C700342C71 /* JTJSONTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A762862142363C600342C71 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A76283C142363C600342C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A762851142363C600342C71 /* main.m in Sources */,
+				1A762855142363C600342C71 /* JTJSONAppDelegate.m in Sources */,
+				1A76285B142363C600342C71 /* JTJSONViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A76285F142363C600342C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A762875142363C700342C71 /* JTJSONTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A76286B142363C600342C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A76283F142363C600342C71 /* JTJSON */;
+			targetProxy = 1A76286A142363C600342C71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A76284D142363C600342C71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A76284E142363C600342C71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A762856142363C600342C71 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A762857142363C600342C71 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1A76285C142363C600342C71 /* JTJSONViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A76285D142363C600342C71 /* en */,
+			);
+			name = JTJSONViewController.xib;
+			sourceTree = "<group>";
+		};
+		1A76286F142363C600342C71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A762870142363C600342C71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A762876142363C700342C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A762877142363C700342C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A762879142363C700342C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTJSON/JTJSON-Prefix.pch";
+				INFOPLIST_FILE = "JTJSON/JTJSON-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A76287A142363C700342C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTJSON/JTJSON-Prefix.pch";
+				INFOPLIST_FILE = "JTJSON/JTJSON-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A76287C142363C700342C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JTJSON.app/JTJSON";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTJSON/JTJSON-Prefix.pch";
+				INFOPLIST_FILE = "JTJSONTests/JTJSONTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1A76287D142363C700342C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JTJSON.app/JTJSON";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTJSON/JTJSON-Prefix.pch";
+				INFOPLIST_FILE = "JTJSONTests/JTJSONTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A76283A142363C600342C71 /* Build configuration list for PBXProject "JTJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A762876142363C700342C71 /* Debug */,
+				1A762877142363C700342C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A762878142363C700342C71 /* Build configuration list for PBXNativeTarget "JTJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A762879142363C700342C71 /* Debug */,
+				1A76287A142363C700342C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A76287B142363C700342C71 /* Build configuration list for PBXNativeTarget "JTJSONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A76287C142363C700342C71 /* Debug */,
+				1A76287D142363C700342C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A762837142363C600342C71 /* Project object */;
+}
