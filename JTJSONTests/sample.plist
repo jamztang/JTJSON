@@ -9,5 +9,10 @@
 		<key>subKey1</key>
 		<string>subValue1</string>
 	</dict>
+	<key>key3</key>
+	<dict>
+		<key>number</key>
+		<string>1</string>
+	</dict>
 </dict>
 </plist>

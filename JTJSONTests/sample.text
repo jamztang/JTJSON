@@ -3,4 +3,7 @@
     key2 =     {
         subKey1 = subValue1;
     };
+    key3 =     {
+        number = 1;
+    };
 }

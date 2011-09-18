@@ -26,6 +26,7 @@
 		1A7628841423645100342C71 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A76287E1423641900342C71 /* sample.json */; };
 		1A7628851423645100342C71 /* sample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A76287F1423641900342C71 /* sample.plist */; };
 		1A7628881423672C00342C71 /* sample.text in Resources */ = {isa = PBXBuildFile; fileRef = 1A7628871423672C00342C71 /* sample.text */; };
+		1AEAA5791426516800A219F0 /* JTJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAA5781426516800A219F0 /* JTJSON.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		1A76287E1423641900342C71 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 		1A76287F1423641900342C71 /* sample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample.plist; sourceTree = "<group>"; };
 		1A7628871423672C00342C71 /* sample.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.text; sourceTree = "<group>"; };
+		1AEAA5771426516800A219F0 /* JTJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTJSON.h; sourceTree = "<group>"; };
+		1AEAA5781426516800A219F0 /* JTJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTJSON.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,7 @@
 		1A762835142363C600342C71 = {
 			isa = PBXGroup;
 			children = (
+				1AEAA5761426514900A219F0 /* Source */,
 				1A76284A142363C600342C71 /* JTJSON */,
 				1A76286C142363C600342C71 /* JTJSONTests */,
 				1A762843142363C600342C71 /* Frameworks */,
@@ -164,6 +168,15 @@
 				1A76286F142363C600342C71 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AEAA5761426514900A219F0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1AEAA5771426516800A219F0 /* JTJSON.h */,
+				1AEAA5781426516800A219F0 /* JTJSON.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 				1A762851142363C600342C71 /* main.m in Sources */,
 				1A762855142363C600342C71 /* JTJSONAppDelegate.m in Sources */,
 				1A76285B142363C600342C71 /* JTJSONViewController.m in Sources */,
+				1AEAA5791426516800A219F0 /* JTJSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +466,7 @@
 				1A76287A142363C700342C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A76287B142363C700342C71 /* Build configuration list for PBXNativeTarget "JTJSONTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +475,7 @@
 				1A76287D142363C700342C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

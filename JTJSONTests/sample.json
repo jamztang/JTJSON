@@ -1,6 +1,9 @@
 {
     "key1" : "value1",
     "key2" :     {
-        "subKey1" : "subValue1",
+        "subKey1" : "subValue1"
     },
+    "key3" :     {
+        "number" : "1"
+    }
 }
